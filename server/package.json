@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn json-server ./server.json --host 192.168.15.91 --port 3333"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
